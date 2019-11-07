@@ -17,6 +17,8 @@ class MainController extends AbstractController
 //        return $this->render('main/index.html.twig', [
 //            'controller_name' => 'MainController',
 //        ]);
-        return new Response();
+
+        //http://symfony.test/
+        return new Response('<h1> Welcomee freecode camp </h1>');
     }
 }
